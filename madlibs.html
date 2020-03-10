@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mad libs</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="madtitle">Mad Libs</h1>
+    <div class="center">
+        <nav>
+            <a href="#">Er heerst paniek...</a>
+            <a href="onkunde.html">Onkunde</a>
+        </nav>
+        <h1 id="title">Er heerst paniek...</h1>
+        <form action="madlibs.php" method="post" autocomplete="off">
+            <section>
+                <label for="input1">Welk dier zou je nooit als huisdier willen hebben?</label>
+                <label for="input2">Wie is de belangrijkste persoon in je leven?</label>
+                <label for="input3">In welk land zou je graag willen wonen?</label>
+                <label for="input4">Wat doe je als je je verveelt?</label>
+                <label for="input5">Met welk speelgoed speelde je als kind het meest?</label>
+                <label for="input6">Bij welke docent spijbel je het liefst?</label>
+                <label for="input7">Als je € 100.000,- had, wat zou je dan kopen?</label>
+                <label for="input8">Wat is je favoriete bezigheid?</label>
+            </section>
+
+            <section>
+                <input type="text" id="input1" name="huisdier" required>
+                <input type="text" id="input2" name="persoon" required>
+                <input type="text" id="input3" name="wonen" required>
+                <input type="text" id="input4" name="verveelt" required>
+                <input type="text" id="input5" name="speelgoed" required>
+                <input type="text" id="input6" name="spijbel" required>
+                <input type="text" id="input7" name="geld" required>
+                <input type="text" id="input8" name="bezigheid" required>
+            </section>
+
+
+            <button type="submit" name="btn1">Versturen</button>
+        </form>
+        <footer class="footer"><p>© Rick Snijders - 2020</p> </footer>
+    </div>
+
+
+</body>
+</html>

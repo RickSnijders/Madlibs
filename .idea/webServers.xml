@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b31ae5fe-75db-46d1-8caa-87cac26e655b" name="local" url="http://localhost/School/Madlibs/">
+        <fileTransfer port="0" mountedRoot="C:\Program Files\Ampps\www\School\Madlibs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
